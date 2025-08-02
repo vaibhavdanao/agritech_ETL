@@ -1,0 +1,9 @@
+bucket_name = "krishikendra-data-lake"
+folder_created_in_bucket= ['bronze/', 'silver/', 'gold/', 'config/', 'reports/', 'logs/']
+git_project_download = "https://github.com/vaibhavdanao/agritech_elt"
+required_file_list = ["requirements.txt"]
+api_for_main_data_download_in_zip = "https://udharihub.online/zip_download.php"
+zip_path = "/tmp/krishikendra_backup.zip"
+bronz_s3 = "bronze/krishikendra_backup.zip"
+first_glue_job ="krishikendra_transform_glue_job"
+first_glue_job_path = "s3://vai-airflow/dag/glue_job_script/transform_krishikendra_customers.py" #yor bucket name where project save
