@@ -1,5 +1,5 @@
 bucket_name = "krishikendra-data-lake"
-folder_created_in_bucket= ['bronze/', 'silver/', 'gold/', 'config/', 'reports/', 'logs/']
+folder_created_in_bucket= ['bronze/', 'silver/', 'gold/', 'config/', 'reports/', 'logs/','iceberg/']
 git_project_download = "https://github.com/vaibhavdanao/agritech_elt"
 required_file_list = ["requirements.txt"]
 api_for_main_data_download_in_zip = "https://udharihub.online/zip_download.php"
